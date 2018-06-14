@@ -1,0 +1,16 @@
+extends ./base/layout.pug
+
+block content
+    nav.nav
+        a.nav-link.active(href="#") Inicio
+    main
+        section.section
+            .container
+                .columns.notification
+                    .column
+                        hr
+                        h2 Mis tareas
+                        hr
+                .columns.notification
+                    .column
+                        pre {{ $data }}
