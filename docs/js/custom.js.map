@@ -1,1 +1,1 @@
-{"version":3,"sources":["custom.js"],"names":["$","tooltip"],"mappings":"aAAAA,EAAE,WACEA,EAAE,2BAA2BC","file":"custom.js","sourcesContent":["$(function () {\r\n    $('[data-toggle=\"tooltip\"]').tooltip()\r\n})"]}
+{"version":3,"sources":["custom.js"],"names":["$","tooltip","slick","autoplay"],"mappings":"aAAAA,EAAE,WACEA,EAAE,2BAA2BC,UAD/BD,EAAA,WAAYE,OACRC,UAAA","file":"custom.js","sourcesContent":["$(function () {\r\n    $('[data-toggle=\"tooltip\"]').tooltip();\r\n    $('.slider').slick({\r\n        autoplay: true\r\n    });\r\n});"]}
