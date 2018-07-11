@@ -1,2 +1,2 @@
-"use strict";$(function(){$('[data-toggle="tooltip"]').tooltip(),$(".slider").slick({autoplay:!0})});
+"use strict";function Jugador(o){this.nombre=o,this.pv=100,this.sp=100,this.curar=function(o){this.sp>=40?(this.sp-=40,o.pv+=20):console.info(this.nombre+" no tiene SP"),this.estado(o)},this.tirarFlecha=function(o){o.pv>40?o.pv-=40:(o.pv=0,console.error(o.nombre+" Está muerto.")),this.estado(o)},this.golpearEspada=function(o){o.pv>20?o.pv-=20:(o.pv=0,console.error(o.nombre+" Está muerto.")),this.estado(o)},this.estado=function(o){console.info(this),console.info(o)}}var gandalf=new Jugador("Gandalf"),legolas=new Jugador("Legolas"),aragon=new Jugador("aragon");console.log(gandalf),console.log(legolas),gandalf.curar(legolas);
 //# sourceMappingURL=custom.js.map
