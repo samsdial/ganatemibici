@@ -1,2 +1,2 @@
-"use strict";$(function(){$('[data-toggle="tooltip"]').tooltip(),$(".slider").slick({autoplay:!0})});
+"use strict";
 //# sourceMappingURL=custom.js.map

@@ -51,7 +51,7 @@ console.log("c: ", c);
 console.log("d: ", d);*/
 
 //Notación de Punto y corchetes
-var persona = {
+/*var persona = {
     nombre: "Junana",
     apellido: "Herrera",
     edad: 25,
@@ -63,7 +63,7 @@ var persona = {
             telefono: "322-333"
         }
     }
-};
+};*/
 //console.log(persona.direccion.pais);
 //console.log(persona.direccion.ciudad);
 //persona.direccion.zipcode = 11101;
