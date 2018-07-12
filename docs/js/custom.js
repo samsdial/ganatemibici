@@ -1,2 +1,2 @@
-"use strict";$(function(){$('[data-toggle="tooltip"]').tooltip(),$(".slider").slick({autoplay:!0})});
+"use strict";var arr=[5,4,3,2,1];console.log(arr[0],arr[4]),arr.reverse(),console.log(arr,arr[0],arr[4]),arr=arr.map(function(r){return r*=r}),console.log(arr),arr=arr.map(Math.sqrt),console.log(arr),arr=arr.join("|"),console.log(arr),arr=arr.split("|"),console.log(arr),arr.push("6"),console.log(arr),arr.unshift("0"),console.log(arr),console.log(arr.toString());var elimine=arr.pop();console.log(arr,elimine),arr.splice(1,1,"10","20"),console.log(arr),arr=arr.slice(3,5),console.log(arr);
 //# sourceMappingURL=custom.js.map
