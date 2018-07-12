@@ -1,2 +1,2 @@
-"use strict";$(function(){$('[data-toggle="tooltip"]').tooltip(),$(".slider").slick({autoplay:!0})});
+"use strict";function identifica(o){console.log(o instanceof Persona),console.log(void 0===o?"undefined":_typeof(o))}function Persona(){this.nombre="fernando",this.edad=30}var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(o){return typeof o}:function(o){return o&&"function"==typeof Symbol&&o.constructor===Symbol&&o!==Symbol.prototype?"symbol":typeof o},fernando=new Persona;identifica(fernando);
 //# sourceMappingURL=custom.js.map
