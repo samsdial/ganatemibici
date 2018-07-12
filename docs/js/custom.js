@@ -1,2 +1,2 @@
-"use strict";$(function(){$('[data-toggle="tooltip"]').tooltip(),$(".slider").slick({autoplay:!0})});
+"use strict";function ejecutarFuncion(n){return 1===n()}console.log(ejecutarFuncion(function(){return console.log("funcion Anonima Ejecutada!"),0}));
 //# sourceMappingURL=custom.js.map
