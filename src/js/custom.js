@@ -1,32 +1,32 @@
-//Objeto Fecha
-//La fechas son Objetos
-var hoy = new Date();
-var fMili = new Date(0);
-//var fFija = new Date( año, mes, dia, hora,min, seg, mili );
-var fFija = new Date( 2016, 9, 17, 23, 10, 15, 1 );
+// Operaciones con Fechas
+var fecha = new Date(2018, 9, 20, 12, 59);
+// console.log( fecha );
+// Las fechas tienen un SEt
+// fecha.setDate( 32 );
+// console.log( fecha );
 
-console.log( hoy );
-console.log( fMili );
-console.log( fFija );
+Date.prototype.sumarDias = function ( dias ) {
+    this.setDate( this.getDate() + dias );
+    return this;
+};
 
-console.log( hoy.getFullYear() );
-//console.log( hoy.getYear() ); no Usar
-console.log( hoy.getDay());
-console.log( hoy.getHours());
-console.log( hoy.getMilliseconds());
-console.log( hoy.getMonth());
-console.log( hoy.getSeconds());
-console.log( hoy.getTime()); // Cuanto tiempo tarda en hacer un proceso.
+Date.prototype.sumarAnios = function ( anios ) {
+    this.setFullYear( this.getFullYear() + anios );
+    return this;
+};
 
-var inicio = new Date();
-for (var i = 0; i < 15000 ; i ++){
-    console.log("Algo:...");
-}
-var fin = new Date();
+Date.prototype.sumarHoras = function ( horas ) {
+    this.setHours( this.getHours() + horas );
+    return this;
+};
 
-/*
-console.log( inicio );
-console.log( fin );*/
-var duracion = fin.getTime() - inicio.getTime();
-console.log(duracion, "milisegundos");
-console.log(duracion/1000, "Segundos");
+Date.prototype.sumarSegun = function ( segundos ) {
+    this.setSeconds( this.getSeconds() + segundos );
+    return this;
+};
+
+console.log( fecha );
+console.log( fecha.sumarDias(1) );
+console.log( fecha.sumarAnios(15) );
+console.log( fecha.sumarHoras(6) );
+console.log( fecha.sumarSegun(60) );
