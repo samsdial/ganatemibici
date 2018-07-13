@@ -1,26 +1,32 @@
-// Los Objetos String
-// la variables tipo texto o cadena
-// En Js es un objeto
-var b = "Herrera";
-var a = new String("Fernando Herrera Pineda Chacon");
-console.log( a[0]);
-// MET. a Mayusculas
-console.log(a.toUpperCase());
-// MET. A minusculas
-console.log(a.toLowerCase());
-// MET. el primer index
-var i = a.indexOf("Herrera");
-console.log("la letra esta: ", i);
-// MET. El ultimo index
-var i = a.lastIndexOf("n");
-console.log("la letra esta: ", i);
-// MET. Desde donde quiero cortar el String
-var nombre = a.substr(0, a.indexOf(" "));
-console.log( nombre.toUpperCase() );
-// MET. Split Crea un Ojb con nuestra variable
-var split = a.split(" ");
-console.log( split );
-console.log( split.length );
-//=====
-// MET.
-document.write( a.bold().fontcolor("red"));
+//Objeto Fecha
+//La fechas son Objetos
+var hoy = new Date();
+var fMili = new Date(0);
+//var fFija = new Date( año, mes, dia, hora,min, seg, mili );
+var fFija = new Date( 2016, 9, 17, 23, 10, 15, 1 );
+
+console.log( hoy );
+console.log( fMili );
+console.log( fFija );
+
+console.log( hoy.getFullYear() );
+//console.log( hoy.getYear() ); no Usar
+console.log( hoy.getDay());
+console.log( hoy.getHours());
+console.log( hoy.getMilliseconds());
+console.log( hoy.getMonth());
+console.log( hoy.getSeconds());
+console.log( hoy.getTime()); // Cuanto tiempo tarda en hacer un proceso.
+
+var inicio = new Date();
+for (var i = 0; i < 15000 ; i ++){
+    console.log("Algo:...");
+}
+var fin = new Date();
+
+/*
+console.log( inicio );
+console.log( fin );*/
+var duracion = fin.getTime() - inicio.getTime();
+console.log(duracion, "milisegundos");
+console.log(duracion/1000, "Segundos");
