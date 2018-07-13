@@ -1,32 +1,25 @@
-// Operaciones con Fechas
-var fecha = new Date(2018, 9, 20, 12, 59);
-// console.log( fecha );
-// Las fechas tienen un SEt
-// fecha.setDate( 32 );
-// console.log( fecha );
+// Objeto Math
+// Reside en el ObjetoGlobal
+var PI = Math.PI;
+var E = Math.E;
 
-Date.prototype.sumarDias = function ( dias ) {
-    this.setDate( this.getDate() + dias );
-    return this;
-};
+console.log(PI);
+console.log(E);
+var num1 = 10.956789;
 
-Date.prototype.sumarAnios = function ( anios ) {
-    this.setFullYear( this.getFullYear() + anios );
-    return this;
-};
+console.log( num1 );
+// REdodndear numeros
+console.log( Math.round( num1 ));
+console.log( Math.round( num1*100 ) / 100 );// Dos decimales
 
-Date.prototype.sumarHoras = function ( horas ) {
-    this.setHours( this.getHours() + horas );
-    return this;
-};
+console.log( Math.floor( num1 )); // quita todos los decimales sin redondeo
 
-Date.prototype.sumarSegun = function ( segundos ) {
-    this.setSeconds( this.getSeconds() + segundos );
-    return this;
-};
+//var rnd = Math.random();
+//console.log( rnd );
+function randomEntre( min, max ) {
+        return Math.floor( Math.random() * (max-min + 1) + min)
+}
+console.log( randomEntre( 500,1000 ));
 
-console.log( fecha );
-console.log( fecha.sumarDias(1) );
-console.log( fecha.sumarAnios(15) );
-console.log( fecha.sumarHoras(6) );
-console.log( fecha.sumarSegun(60) );
+console.log( Math.sqrt( 10 )); // Raiz cuadrada
+console.log( Math.pow( 7, 3 )); // Exponentes
