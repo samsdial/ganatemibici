@@ -1,29 +1,48 @@
-// Funciones especiales: call, apply, bind
-var carro = {
-    color: "carro",
-    marca: "mazda",
-    imprimir: function () {
-        var salida = this.marca + " - " + this.color;
-        return salida;
+// If ... Else
+/*
+var nota = 55;
+if( nota >= 90 ){
+   console.log("A")
+}else if( nota >= 80){
+    console.log("B")
+}else if( nota >= 70){
+    console.log("C")
+}else if( nota >= 60){
+    console.log("D")
+}else{
+    if ( nota > 50){
+        console.log("F");
     }
-};
-var carro2 = {
-    color: "rojo",
-    marca: "toyoya"
-};
-console.log( carro.imprimir() );
-var logCarro = function ( arg1, arg2 ) {
-  console.log("Carro:  ", this.imprimir());
-  console.log("Argunentos:  ", arg1, arg2);
-  console.log("===================");
-};
-var logModeloCarro = logCarro.bind( carro );
+    console.log("Algo paso por aqui..")
+}
+console.log("termino el codigo");*/
+/*var a = undefined;
+var b = 20;*/
+// if de Validación Corta
+//var c = ( a > b)? a : b;
 
-logModeloCarro();
-logModeloCarro("abc", "xyz");
-logModeloCarro.call( carro, "123", "456" );
-logModeloCarro.apply( carro, ["123", "456"] );
 
-// Sirven para:
-// funciones prestadas
-console.log( carro.imprimir.call( carro2 ) );
+// Avanzado
+/*var c = ( a > b)? function () {
+    console.log("A es mayor a B");
+    return a;
+}() : function () {
+    console.log("B es mayor a A");
+    return b;
+}();
+console.log(c);*/
+/*if( a > b){
+    c = a;
+}else{
+    c = b;
+}
+console.log(c);*/
+//
+// var c = a || b;
+// console.log(c);
+//Funciones que esperan parametros
+function getNombre( nombre, apellido ) {
+    var nomb = nombre || null || "sin apellido";
+    console.log( nomb );
+}
+getNombre();
