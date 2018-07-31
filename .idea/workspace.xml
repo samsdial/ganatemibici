@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add Class learnig Javascript -- for  -- for in  -- for each">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js.map" afterPath="$PROJECT_DIR$/docs/js/custom.js.map" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="377">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,7 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/ciclo_while-and-do_while" />
+        <entry key="$PROJECT_DIR$" value="feature/cicle_for" />
       </map>
     </option>
   </component>
@@ -311,7 +311,7 @@
       <workItem from="1531746591318" duration="10862000" />
       <workItem from="1531915046795" duration="11896000" />
       <workItem from="1532982703066" duration="3197000" />
-      <workItem from="1533045095398" duration="10958000" />
+      <workItem from="1533045095398" duration="11948000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -579,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533063770481</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add Class learnig Javascript -- for  -- for in  -- for each">
+      <created>1533065518893</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1533065518893</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142073000" />
+    <option name="totallyTimeSpent" value="143063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="943" height="1087" extended-state="0" />
@@ -638,7 +645,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Add Class learnig Javascript -- intro" />
     <MESSAGE value="Add Class learnig Javascript -- GAME SEÑOR DE LOS ANILLOS" />
     <MESSAGE value="Add Class learnig Javascript -- Prototipos" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones Anonimas" />
@@ -663,7 +669,8 @@
     <MESSAGE value="Add Class learnig Javascript -- switch estructure" />
     <MESSAGE value="Add Class learnig Javascript -- json" />
     <MESSAGE value="Add Class learnig Javascript -- While -- do" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- While -- do" />
+    <MESSAGE value="Add Class learnig Javascript -- for  -- for in  -- for each" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- for  -- for in  -- for each" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="377">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
