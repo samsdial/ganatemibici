@@ -1,2 +1,2 @@
-"use strict";var mes=40;switch(mes){case 40:console.log("Enero");break;case 2:console.log("Febrero");break;case 3:console.log("Marzo");break;default:console.log("cualquier cosa")}
+"use strict";var objetoJS={nombre:"fernanod",edad:30,imprimir:function(){console.log(this.nombre+this.edad)}};console.log("objeto literal",objetoJS);var jsnString=JSON.stringify(objetoJS);console.log(jsnString);var objetoDesdeJason=JSON.parse(jsnString);console.log(objetoDesdeJason),console.log(objetoDesdeJason.nombre),console.log(objetoDesdeJason.edad);
 //# sourceMappingURL=custom.js.map
