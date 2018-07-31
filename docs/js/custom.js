@@ -1,2 +1,2 @@
-"use strict";for(var i=1;i<=5;i++){console.log("i",i);for(var j=1;j<=5;j++){console.log("j",j);o:for(var x=1;x<=5;x++){console.log("x",x);break o}}}
+"use strict";var segundos=0,juan={nombre:"juan",edad:30,imprimir:function(){var n=this;setTimeout(function(){console.log(n),console.log(n.nombre,n.edad)},1e3)}};juan.imprimir();
 //# sourceMappingURL=custom.js.map
