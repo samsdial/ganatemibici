@@ -1,2 +1,2 @@
-"use strict";var objetoJS={nombre:"fernanod",edad:30,imprimir:function(){console.log(this.nombre+this.edad)}};console.log("objeto literal",objetoJS);var jsnString=JSON.stringify(objetoJS);console.log(jsnString);var objetoDesdeJason=JSON.parse(jsnString);console.log(objetoDesdeJason),console.log(objetoDesdeJason.nombre),console.log(objetoDesdeJason.edad);
+"use strict";var i=0;do{5!==++i&&console.log(i)}while(i<10);
 //# sourceMappingURL=custom.js.map
