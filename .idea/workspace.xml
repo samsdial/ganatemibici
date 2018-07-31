@@ -56,8 +56,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -75,7 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/json" />
+        <entry key="$PROJECT_DIR$" value="feature/ciclo_while-and-do_while" />
       </map>
     </option>
   </component>
@@ -311,7 +311,7 @@
       <workItem from="1531746591318" duration="10862000" />
       <workItem from="1531915046795" duration="11896000" />
       <workItem from="1532982703066" duration="3197000" />
-      <workItem from="1533045095398" duration="9227000" />
+      <workItem from="1533045095398" duration="10958000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -572,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533055155502</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add Class learnig Javascript -- While -- do">
+      <created>1533063770480</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1533063770481</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140342000" />
+    <option name="totallyTimeSpent" value="142073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="943" height="1087" extended-state="0" />
@@ -631,7 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Add Value Git ignore" />
     <MESSAGE value="Add Class learnig Javascript -- intro" />
     <MESSAGE value="Add Class learnig Javascript -- GAME SEÑOR DE LOS ANILLOS" />
     <MESSAGE value="Add Class learnig Javascript -- Prototipos" />
@@ -656,7 +662,8 @@
     <MESSAGE value="Add Class learnig Javascript -- if and else" />
     <MESSAGE value="Add Class learnig Javascript -- switch estructure" />
     <MESSAGE value="Add Class learnig Javascript -- json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- json" />
+    <MESSAGE value="Add Class learnig Javascript -- While -- do" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- While -- do" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
