@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add Class learnig Javascript -- Funciones de tiempo">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js.map" afterPath="$PROJECT_DIR$/docs/js/custom.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,23 +34,13 @@
         <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="221" column="54" lean-forward="false" selection-start-line="221" selection-start-column="54" selection-end-line="221" selection-end-column="54" />
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-                <element signature="e#168#403#0" expanded="false" />
-                <element signature="e#420#15920#0" expanded="false" />
-                <element signature="e#15937#16035#0" expanded="false" />
+                <element signature="e#367#602#0" expanded="false" />
+                <element signature="e#619#16119#0" expanded="false" />
+                <element signature="e#16136#16234#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="259" column="14" lean-forward="true" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -56,8 +48,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -77,7 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/rotulando_ciclos" />
+        <entry key="$PROJECT_DIR$" value="features/funciones-de-tiempo-js" />
       </map>
     </option>
   </component>
@@ -98,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/sass/style.sass" />
         <option value="$PROJECT_DIR$/src/sass/_modificadores.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/js/custom.js" />
       </list>
     </option>
@@ -313,7 +305,7 @@
       <workItem from="1531746591318" duration="10862000" />
       <workItem from="1531915046795" duration="11896000" />
       <workItem from="1532982703066" duration="3197000" />
-      <workItem from="1533045095398" duration="13189000" />
+      <workItem from="1533045095398" duration="16215000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -595,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533066978003</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add Class learnig Javascript -- Funciones de tiempo">
+      <created>1533067753177</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1533067753177</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144304000" />
+    <option name="totallyTimeSpent" value="147330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="943" height="1087" extended-state="0" />
@@ -654,7 +653,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Add Class learnig Javascript -- Prototipos" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones Anonimas" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones Typeof e intanceof" />
     <MESSAGE value="Add Class learnig Javascript -- Array y funciones para los array" />
@@ -679,7 +677,8 @@
     <MESSAGE value="Add Class learnig Javascript -- While -- do" />
     <MESSAGE value="Add Class learnig Javascript -- for  -- for in  -- for each" />
     <MESSAGE value="Add Class learnig Javascript -- Rotulando ciclos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Rotulando ciclos" />
+    <MESSAGE value="Add Class learnig Javascript -- Funciones de tiempo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Funciones de tiempo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,9 +710,9 @@
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#168#403#0" expanded="false" />
-            <element signature="e#420#15920#0" expanded="false" />
-            <element signature="e#15937#16035#0" expanded="false" />
+            <element signature="e#367#602#0" expanded="false" />
+            <element signature="e#619#16119#0" expanded="false" />
+            <element signature="e#16136#16234#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -745,9 +744,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#168#403#0" expanded="false" />
-            <element signature="e#420#15920#0" expanded="false" />
-            <element signature="e#15937#16035#0" expanded="false" />
+            <element signature="e#367#602#0" expanded="false" />
+            <element signature="e#619#16119#0" expanded="false" />
+            <element signature="e#16136#16234#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,9 +864,9 @@
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#168#403#0" expanded="false" />
-            <element signature="e#420#15920#0" expanded="false" />
-            <element signature="e#15937#16035#0" expanded="false" />
+            <element signature="e#367#602#0" expanded="false" />
+            <element signature="e#619#16119#0" expanded="false" />
+            <element signature="e#16136#16234#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,9 +898,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#168#403#0" expanded="false" />
-            <element signature="e#420#15920#0" expanded="false" />
-            <element signature="e#15937#16035#0" expanded="false" />
+            <element signature="e#367#602#0" expanded="false" />
+            <element signature="e#619#16119#0" expanded="false" />
+            <element signature="e#16136#16234#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,19 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="221" column="54" lean-forward="false" selection-start-line="221" selection-start-column="54" selection-end-line="221" selection-end-column="54" />
-          <folding>
-            <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#168#403#0" expanded="false" />
-            <element signature="e#420#15920#0" expanded="false" />
-            <element signature="e#15937#16035#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1065,10 +1051,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="e#367#602#0" expanded="false" />
+            <element signature="e#619#16119#0" expanded="false" />
+            <element signature="e#16136#16234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
