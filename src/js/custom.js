@@ -9,3 +9,8 @@ console.log( acepto );
 */
 var nombre = prompt("esta Seguro", "nombre");
 console.log( nombre );
+/*
+* https://alertifyjs.com/
+* https://notifyjs.jpillora.com/
+* https://sweetalert2.github.io/
+* */
