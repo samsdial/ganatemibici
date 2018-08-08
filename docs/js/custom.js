@@ -1,2 +1,2 @@
-"use strict";document.onmousedown=function(o){2!==o.button?console.log("no hay problema"):alert("click bloqueado")},document.onmouseup=function(){var o=window.getSelection().toString();console.log(o)};
+"use strict";function validar(){var e=document.getElementById("txtNombre").value,t=document.getElementById("txtApellido").value;return!(e.length<1)&&!(t.length<1)}function getParamURL(e){return decodeURIComponent((new RegExp("[?|&]"+e+"=([^&;]+?)(&|#|;|$)").exec(location.search)||[,""])[1].replace(/\+/g,"%20"))||null}console.log(window.location.search),console.log(window.location.search.split("&")),console.log(getParamURL("txtNombre"),getParamURL("txtApellido"));
 //# sourceMappingURL=custom.js.map

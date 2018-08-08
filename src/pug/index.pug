@@ -7,9 +7,10 @@ block content
         section.section
             .container
                 .row
-                    button(onclick="evento()") soy un botón
-                    button#demoObj(ondblclick="evento()") soy un botón
-                    input#objDemo(text="text")
+                    form(action="", onsubmit="return validar();")
+                        input#txtNombre(type="text", name="txtNombre")
+                        input#txtApellido(type="text", name="txtApellido")
+                        button(type="submit") Poster new
                 //.row
                     .col.text-center
                         ul.slider

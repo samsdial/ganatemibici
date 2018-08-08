@@ -41,9 +41,11 @@
       <section class="section">
         <div class="container">
           <div class="row">
-            <button onclick="evento()">soy un botón</button>
-            <button id="demoObj" ondblclick="evento()">soy un botón</button>
-            <input id="objDemo" text="text">
+            <form action="" onsubmit="return validar();">
+              <input id="txtNombre" type="text" name="txtNombre">
+              <input id="txtApellido" type="text" name="txtApellido">
+              <button type="submit">Poster new</button>
+            </form>
           </div>
           <!--.row
           .col.text-center

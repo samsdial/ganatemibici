@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add Class learnig Javascript -- Eventos del Navegador">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js.map" afterPath="$PROJECT_DIR$/docs/js/custom.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,13 +33,13 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="87">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding>
                 <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-                <element signature="e#367#602#0" expanded="false" />
-                <element signature="e#619#16119#0" expanded="false" />
-                <element signature="e#16136#16234#0" expanded="false" />
+                <element signature="e#458#693#0" expanded="false" />
+                <element signature="e#710#16210#0" expanded="false" />
+                <element signature="e#16227#16325#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -45,11 +48,9 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +67,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="features/funciones-de-tiempo-js" />
+        <entry key="$PROJECT_DIR$" value="feature/eventos101" />
       </map>
     </option>
   </component>
@@ -303,7 +304,7 @@
       <workItem from="1531915046795" duration="11896000" />
       <workItem from="1532982703066" duration="3197000" />
       <workItem from="1533045095398" duration="16623000" />
-      <workItem from="1533736811010" duration="545000" />
+      <workItem from="1533736811010" duration="5373000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -599,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533072716216</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Add Class learnig Javascript -- Eventos del Navegador Seleccionar de la pag">
+      <created>1533737377375</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1533737377375</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148283000" />
+    <option name="totallyTimeSpent" value="153111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="943" height="1087" extended-state="0" />
@@ -658,7 +666,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Add Class learnig Javascript -- Funciones Typeof e intanceof" />
     <MESSAGE value="Add Class learnig Javascript -- Array y funciones para los array" />
     <MESSAGE value="Add Class learnig Javascript -- Arreglos 2" />
     <MESSAGE value="Add Class learnig Javascript -- Argumentos o Argument" />
@@ -683,7 +690,8 @@
     <MESSAGE value="Add Class learnig Javascript -- Rotulando ciclos" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones de tiempo" />
     <MESSAGE value="Add Class learnig Javascript -- Eventos del Navegador" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Eventos del Navegador" />
+    <MESSAGE value="Add Class learnig Javascript -- Eventos del Navegador Seleccionar de la pag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Eventos del Navegador Seleccionar de la pag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,9 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1085">
           <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,9 +721,9 @@
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#367#602#0" expanded="false" />
-            <element signature="e#619#16119#0" expanded="false" />
-            <element signature="e#16136#16234#0" expanded="false" />
+            <element signature="e#458#693#0" expanded="false" />
+            <element signature="e#710#16210#0" expanded="false" />
+            <element signature="e#16227#16325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,9 +755,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#367#602#0" expanded="false" />
-            <element signature="e#619#16119#0" expanded="false" />
-            <element signature="e#16136#16234#0" expanded="false" />
+            <element signature="e#458#693#0" expanded="false" />
+            <element signature="e#710#16210#0" expanded="false" />
+            <element signature="e#16227#16325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -760,9 +766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,9 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,6 +854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="52" column="29" lean-forward="true" selection-start-line="51" selection-start-column="89" selection-end-line="52" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -868,9 +871,9 @@
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#367#602#0" expanded="false" />
-            <element signature="e#619#16119#0" expanded="false" />
-            <element signature="e#16136#16234#0" expanded="false" />
+            <element signature="e#458#693#0" expanded="false" />
+            <element signature="e#710#16210#0" expanded="false" />
+            <element signature="e#16227#16325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,9 +905,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#367#602#0" expanded="false" />
-            <element signature="e#619#16119#0" expanded="false" />
-            <element signature="e#16136#16234#0" expanded="false" />
+            <element signature="e#458#693#0" expanded="false" />
+            <element signature="e#710#16210#0" expanded="false" />
+            <element signature="e#16227#16325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,9 +916,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,6 +1044,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,29 +1052,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="259" column="14" lean-forward="true" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="87">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
-            <element signature="e#367#602#0" expanded="false" />
-            <element signature="e#619#16119#0" expanded="false" />
-            <element signature="e#16136#16234#0" expanded="false" />
+            <element signature="e#458#693#0" expanded="false" />
+            <element signature="e#710#16210#0" expanded="false" />
+            <element signature="e#16227#16325#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
