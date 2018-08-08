@@ -1,19 +1,11 @@
-// Fomulario en JS
-function validar() {
-    var nombre = document.getElementById("txtNombre").value;
-    var apellido = document.getElementById("txtApellido").value;
+// Cajas de Dialogo
+// Tres tipos de cajas de dialogo
+// Se pueden Bloquear
 
-    if( nombre.length < 1){
-        return false;
-    }
-    if( apellido.length < 1){
-        return false;
-    }
-    return true;
-}
-function getParamURL(name) {
-    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
-}
-console.log(window.location.search);
-console.log(window.location.search.split("&"));
-console.log( getParamURL("txtNombre"), getParamURL("txtApellido"));
+//alert("hola mundo");
+/*
+var acepto = confirm("esta Seguro");
+console.log( acepto );
+*/
+var nombre = prompt("esta Seguro", "nombre");
+console.log( nombre );
