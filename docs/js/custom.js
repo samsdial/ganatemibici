@@ -1,2 +1,2 @@
-"use strict";var nombre=prompt("esta Seguro","nombre");console.log(nombre);
+"use strict";
 //# sourceMappingURL=custom.js.map
