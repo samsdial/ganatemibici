@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add Class learnig Javascript -- Funciones de tiempo">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add Class learnig Javascript -- Eventos del Navegador">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js.map" afterPath="$PROJECT_DIR$/docs/js/custom.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
                 <element signature="e#367#602#0" expanded="false" />
@@ -48,8 +45,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="522">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -201,7 +198,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\SMARTINEZ\http\ganatemibici\node_modules\gulp" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gulp.js.watch">
     <configuration default="false" name="watch" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -305,7 +302,8 @@
       <workItem from="1531746591318" duration="10862000" />
       <workItem from="1531915046795" duration="11896000" />
       <workItem from="1532982703066" duration="3197000" />
-      <workItem from="1533045095398" duration="16215000" />
+      <workItem from="1533045095398" duration="16623000" />
+      <workItem from="1533736811010" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -594,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533067753177</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add Class learnig Javascript -- Eventos del Navegador">
+      <created>1533072716216</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1533072716216</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147330000" />
+    <option name="totallyTimeSpent" value="148283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="943" height="1087" extended-state="0" />
@@ -608,7 +613,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20693392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6703418" sideWeight="0.5188088" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6704417" sideWeight="0.48119122" order="0" side_tool="false" content_ui="combo" />
@@ -653,7 +658,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Add Class learnig Javascript -- Funciones Anonimas" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones Typeof e intanceof" />
     <MESSAGE value="Add Class learnig Javascript -- Array y funciones para los array" />
     <MESSAGE value="Add Class learnig Javascript -- Arreglos 2" />
@@ -678,7 +682,8 @@
     <MESSAGE value="Add Class learnig Javascript -- for  -- for in  -- for each" />
     <MESSAGE value="Add Class learnig Javascript -- Rotulando ciclos" />
     <MESSAGE value="Add Class learnig Javascript -- Funciones de tiempo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Funciones de tiempo" />
+    <MESSAGE value="Add Class learnig Javascript -- Eventos del Navegador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class learnig Javascript -- Eventos del Navegador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="52" column="29" lean-forward="true" selection-start-line="51" selection-start-column="89" selection-end-line="52" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,14 +1050,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="259" column="14" lean-forward="true" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="n#nav#0;n#block#0;n#!!top" expanded="false" />
             <element signature="e#367#602#0" expanded="false" />
@@ -1066,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="522">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
